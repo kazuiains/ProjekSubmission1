@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#1b1b1b</color>
+    <color name="colorAccent">#00a8ff</color>
+    <color name="putih">#ffffff</color>
+    <color name="transparan_biru">#7200A8FF</color>
+    <color name="transparan_hitam">#C1000000</color>
+    <color name="hitam">#000000</color>
+    <color name="garis_batas">#DEDEDE</color>
+    <color name="back_title_and_genre">#F5F5F6</color>
+
+
+</resources>

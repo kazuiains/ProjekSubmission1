@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/garis_batas"
+    android:paddingTop="@dimen/d_v2dp"
+    android:paddingBottom="@dimen/d_v2dp"
+    android:paddingRight="@dimen/d_v4dp"
+    android:paddingLeft="@dimen/d_v4dp"
+    >
+
+    <ImageView
+        android:id="@+id/iv_foto_movie-M-A-Y"
+        android:layout_width="@dimen/w_poster"
+        android:layout_height="@dimen/h_poster"
+        android:src="@drawable/rezero"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/judul_film" />
+
+    <RelativeLayout
+        android:id="@+id/ll_background-rating"
+        android:layout_width="@dimen/w_poster"
+        android:layout_height="@dimen/h_poster"
+        >
+
+        <TextView
+            android:layout_alignParentEnd="true"
+            android:id="@+id/tv_rating_movie-M-A-Y"
+            android:layout_width="@dimen/w_rate"
+            android:layout_height="@dimen/h_rate"
+            android:background="@color/transparan_biru"
+            android:gravity="center_vertical"
+            android:text="@string/rating_film"
+            android:textAlignment="center"
+            android:textColor="@color/putih"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_background-judul"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_title"
+        android:layout_alignTop="@id/ll_background-rating"
+        android:layout_toEndOf="@id/ll_background-rating"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/d_v10dp"
+        android:paddingRight="@dimen/d_v10dp"
+        android:background="@color/back_title_and_genre">
+
+        <TextView
+            android:id="@+id/tv_judul_movie-M-A-Y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d_v8dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/judul_film"
+            android:textSize="@dimen/d_tv20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_background-rilis-genre"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_title"
+        android:layout_alignBottom="@id/ll_background-rating"
+        android:layout_toEndOf="@id/ll_background-rating"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/d_v10dp"
+        android:paddingRight="@dimen/d_v10dp"
+        android:background="@color/back_title_and_genre">
+
+        <TextView
+            android:id="@+id/tv_genre_movie-M-A-Y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/d_v5dp"
+            android:text="@string/genre_film"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <TextView
+            android:id="@+id/tv_tanggal_tayang-M-A-Y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/d_v8dp"
+            android:text="@string/release" />
+    </LinearLayout>
+
+</RelativeLayout>

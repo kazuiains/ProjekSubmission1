@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="d_v10dp">10dp</dimen>
+    <dimen name="nilai_height_background_poster">380dp</dimen>
+    <dimen name="width_detail_poster">140dp</dimen>
+    <dimen name="height_detail_poster">190dp</dimen>
+    <dimen name="width_detail_rate">70dp</dimen>
+    <dimen name="height_detail_rate">70dp</dimen>
+    <dimen name="width_nilai_rate">70dp</dimen>
+    <dimen name="height_nilai_rate">40dp</dimen>
+    <dimen name="height_detail_title">80dp</dimen>
+    <dimen name="d_v5dp">5dp</dimen>
+    <dimen name="d_tv24sp">24sp</dimen>
+    <dimen name="d_v2dp">2dp</dimen>
+    <dimen name="d_tv15sp">15sp</dimen>
+    <dimen name="d_v0dp">0dp</dimen>
+    <dimen name="d_tv22sp">22sp</dimen>
+    <dimen name="d_v4dp">4dp</dimen>
+    <dimen name="w_poster">100dp</dimen>
+    <dimen name="h_poster">150dp</dimen>
+    <dimen name="w_rate">25dp</dimen>
+    <dimen name="h_rate">30dp</dimen>
+    <dimen name="h_title">75dp</dimen>
+    <dimen name="d_v8dp">8dp</dimen>
+    <dimen name="d_tv20sp">20sp</dimen>
+</resources>
